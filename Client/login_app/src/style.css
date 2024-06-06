@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.main_wrapper_login_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/wavy-black-white-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main_wrapper_login_interface_c1{
+    display: flex;
+    flex-direction: column;
+    min-width: 22em;
+    min-height: 89%;
+    max-height: 89%;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login_interface_c1_user_details_block_const{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+}
+.login_interface_c1_user_details_block_const input{
+    height: 3.5em;
+    margin-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: rgb(64, 66, 66);
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 233);
+}
+.login_interface_c1_user_details_block_const input::placeholder{
+    color: rgb(83, 88, 88);
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(135, 135, 135);
+}
+.login_interface_c1_user_froget_password_link{
+    display: flex;
+    margin: 8px auto;
+    width: 90%;
+    justify-content: flex-end;
+}
+.login_interface_c1_user_froget_password_link a{
+    text-decoration: none;
+    color: rgb(207, 158, 22);
+}
+.login_btn_user_inputbtn_c025{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.login_btn_user_inputbtn_c025 button{
+    padding: 0.7em;
+    width: 90%;
+    background-color: rgb(48, 89, 211);
+    border-radius: 10px;
+    border:none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.style_sologo_text_c035{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.login_interface_c1_user_clickable_btn{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+}
+.login_interface_c1_user_clickable_btn button{
+    padding: 0.8em;
+    margin-bottom: 10px;
+
+}
+.google_btn_m02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    gap: 1em;
+}
+.apple_btn_m02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1em;
+}
+.login_interface_c1_user_clickable_btn button:first-child{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 20px;
+    font-weight:600;
+    height: 3.5em;
+}
+.login_interface_c1_user_clickable_btn button:last-child{
+    background-color: black;
+    border: none;
+    font-weight:600;
+    border-radius: 20px;
+    height: 3.5em;
+}
+#m02_free_space{
+    margin-top: 5px;
+}
+#m03_free_space{
+    margin-top: 20px;
+}
+#m03_add_custom_css{
+    margin: 0 5px 0 5px;
+}
+.item{
+    width: 26%;
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+#index_footer_solog{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+#index_footer_solog a{
+    text-decoration: none;
+    color: rgb(207, 158, 22);
+}
+
+/* This is verifiycation html code style code */
+.vericatioin_interface_c1_user_details_block_const input{
+    height: 4em;
+    width: 4.5em;
+    margin-top: 5px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(237, 236, 233);
+}
+#verify_sologon_m500{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.verification_user_input_otp_code_block{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#verify_sologon_m501{
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+#verify_sologon_m501 a{
+    color: rgb(232, 158, 39);
+}
+#footer_m504_zmy{
+    text-align: center;
+}
+#footer_m504_zmy a{
+    color: rgb(9, 109, 250);
+}
+/* This is verifiycation html code style code */
+
+/* This is newpassword html code style code */
+.newpassword_interface_c1_user_details_block_const{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+}
+.newpassword_interface_c1_user_details_block_const input{
+    height: 3em;
+    margin-top: 8px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 233);
+}
+.newpassword_interface_c1_user_details_block_const input::placeholder{
+    color: rgb(83, 88, 88);
+    font-weight: 600;
+}
+.update_btn_user_inputbtn_c025 {
+    text-align: center;
+}
+.update_btn_user_inputbtn_c025 button{
+    padding: 1em;
+    width: 90%;
+    background-color: rgb(5, 57, 213);
+    border-radius: 10px;
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+.new_password_Image{
+    background: url("../src/assets/Secure\ login-pana.svg");
+    height: 15em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* This is newpassword html code style code */
+
+/* This is FrogetPassword html code style code */
+.login_btn_user_inputbtn_c025 a{
+    color: white;
+    text-decoration: none;
+}
+#frogetpassword_user_slogon{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+#frogetpassword_user_slogon a{
+    text-decoration: none;
+    color: rgb(207, 158, 22);
+}
+#mm1025_pid{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+#mm1025_pid a{
+    text-decoration: none;
+    color: rgb(207, 158, 22);
+}
+#Register_footer_phara{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+#Register_footer_phara a{
+    text-decoration: none;
+    color: rgb(207, 158, 22);
+}
+/* This is FrogetPassword html code style code */
+
+
+/* This is error Handele code */
+.error_handle{
+    display: none;
+    color: red;
+    width: 90%;
+    margin: 0 auto;
+}
+@media(max-width:417px){
+    body{
+        background-color: rgb(172, 144, 108)
+    }
+    
+    h2{
+        font-size: 1.6rem;
+    }
+    .main_wrapper_login_interface_c1{
+      
+        min-width: 20em;
+        min-height: 70%;
+        max-height: 70%;
+    }
+    .login_interface_c1_user_details_block_const input{
+        height: 4.5em;
+    }
+    .login_btn_user_inputbtn_c025 button{
+        padding: 1.1em;
+        font-size: 1rem;
+    }
+    .login_interface_c1_user_clickable_btn button:first-child{
+        padding: 1.2em;
+        font-size: 0.9rem;
+    }
+    .login_interface_c1_user_clickable_btn button:last-child{
+        padding: 1.2em;
+        font-size: 0.9rem;
+    }
+
+
+
+
+    .newpassword_interface_c1_user_details_block_const{
+       margin-top: 10px;
+    }
+    .newpassword_interface_c1_user_details_block_const input{
+        height: 4.5em;
+    }
+    .update_btn_user_inputbtn_c025 button{
+        padding: 1em;
+        height: 5em;
+        width: 90%;
+        background-color: rgb(5, 57, 213);
+    }
+}
